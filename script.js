@@ -1,4 +1,4 @@
-var isDate = function (input) {
+function isDate(input) {
     // Check if the input is a date object
   if (input instanceof Date) {
     return !isNaN(input.getTime());
